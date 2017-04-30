@@ -12,4 +12,8 @@ $(document).ready(function() {
     $('input').addClass('error');
   });
 
+  $('input').on('mouseover', function(){
+    $('input').removeClass('error');
+  });
+
 });
